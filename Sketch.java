@@ -75,22 +75,22 @@ public class Sketch extends PApplet {
    */
   public void keyPressed(){
 
-    if (key == 'a' || key == LEFT){
+    if (key == 'a' || keyCode == LEFT){
 
       tankLeft = true;
     }
 
-    if (key == 'd' || key == RIGHT){
+    if (key == 'd' || keyCode == RIGHT){
 
       tankRight = true;
     }
 
-    if (key == 'w' || key == UP){
+    if (key == 'w' || keyCode == UP){
 
       tankUp = true;
     }
 
-    if (key == 's' || key == DOWN){
+    if (key == 's' || keyCode == DOWN){
 
       tankDown = true;
     }
@@ -103,22 +103,22 @@ public class Sketch extends PApplet {
    */
   public void keyReleased(){
 
-    if (key == 'a' || key == LEFT){
+    if (key == 'a' || keyCode == LEFT){
 
       tankLeft = false;
     }
 
-    if (key == 'd' || key == RIGHT){
+    if (key == 'd' || keyCode == RIGHT){
 
       tankRight = false;
     }
 
-    if (key == 'w' || key == UP){
+    if (key == 'w' || keyCode == UP){
 
       tankUp = false;
     }
 
-    if (key == 's' || key == DOWN){
+    if (key == 's' || keyCode == DOWN){
 
       tankDown = false;
     }
